@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+
+.chi-siamo-container {
+    padding: 20px;
+    text-align: center; 
+    margin-top: 140px; 
+    font-family: 'Nunito';
+    color: #252850;
+}
+
+.chi-siamo-title {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.chi-siamo-subtitle {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 60px;
+}
+
+.chi-siamo-text {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: center; 
+    margin: 0 auto;
+    max-width: 800px; 
+}
