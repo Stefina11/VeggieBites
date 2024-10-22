@@ -8,6 +8,7 @@ import { SearchProvider } from './contexts/SearchContext.jsx';
 import CardDetails from './components/CardDetails.jsx';
 import ChiSiamo from './components/ChiSiamo.jsx';
 import Contatti from './components/Contatti.jsx';
+import Footer from './components/Footer'
 
 
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/chi-siamo" element={<ChiSiamo />} />
           <Route path="/contatti" element={<Contatti />} />
         </Routes>
+        <Footer />
       </SearchProvider>
     </Router>
   );
