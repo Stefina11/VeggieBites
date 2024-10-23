@@ -5,12 +5,12 @@ function Contatti() {
           Contatti
         </h1>
   
-        <p className="text-lg mb-8 mt-8">
-          Compila il form con la tua richiesta di informazioni, <br />
+        <p className="text-lg mb-1 mt-4">
+          Compila il form con la tua richiesta di informazioni,
           verrai contattato nel minor tempo possibile.
         </p>
   
-        <form className="w-full max-w-md mx-auto  m-4 md:m-60 mt-32 sm:mt-16 px-4">
+        <form className="w-full max-w-md mx-auto m-4 md:m-60 mt-8 sm:mt-16 px-4">
           <div className="mb-4">
             <label
               htmlFor="nome"
@@ -22,7 +22,7 @@ function Contatti() {
               type="text"
               id="nome"
               name="nome"
-              className="mt-1 p-2 border rounded w-full sm:w-full md:w-3/4" 
+              className="mt-1 p-2 border rounded w-full"
               required
             />
           </div>
@@ -37,7 +37,7 @@ function Contatti() {
               type="text"
               id="cognome"
               name="cognome"
-              className="mt-1 p-2 border rounded w-full sm:w-full md:w-3/4" 
+              className="mt-1 p-2 border rounded w-full"
               required
             />
           </div>
@@ -52,7 +52,7 @@ function Contatti() {
               type="email"
               id="email"
               name="email"
-              className="mt-1 p-2 border rounded w-full sm:w-full md:w-3/4" 
+              className="mt-1 p-2 border rounded w-full"
               required
             />
           </div>
@@ -67,7 +67,7 @@ function Contatti() {
               id="messaggio"
               name="messaggio"
               rows="4"
-              className="mt-1 p-2 border rounded w-full sm:w-full md:w-3/4" 
+              className="mt-1 p-2 border rounded w-full"
               required
             ></textarea>
           </div>
@@ -90,4 +90,5 @@ function Contatti() {
   }
   
   export default Contatti;
+  
   

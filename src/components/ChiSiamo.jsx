@@ -23,7 +23,7 @@ function ChiSiamo() {
       <p className="chi-siamo-text">
         Crediamo nei benefici di una dieta prevalentemente vegetariana. Come
         sostenuto da studi scientifici, una alimentazione vegetariana riduce le
-        probabilità di sviluppo di malattie cardiovascolari, diabete, obesita,
+        probabilità di sviluppo di malattie cardiovascolari, diabete, obesità,
         alcuni tipi di cancro e ipertensione. I vantaggi che ne conseguono sono
         legati non solo alla salute personale ma anche a quella dell'ambiente e
         degli animali.
