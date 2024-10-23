@@ -2,7 +2,7 @@ function Contatti() {
     return (
       <div className="flex flex-col items-center justify-center text-center mx-auto m-4 md:m-60 mt-32 sm:mt-16">
         <h1 className="text-custom font-bold font-nunito text-4xl mb-4">
-          Contatti
+          Contacts
         </h1>
   
         <p className="text-lg mb-1 mt-4">
@@ -61,7 +61,7 @@ function Contatti() {
               htmlFor="messaggio"
               className="block text-lg font-medium text-custom font-nunito"
             >
-              Messagge
+              Message
             </label>
             <textarea
               id="messaggio"
