@@ -6,12 +6,11 @@ function Contatti() {
         </h1>
   
         <p className="text-lg mb-8 mt-8">
-          {" "}
           Compila il form con la tua richiesta di informazioni, <br />
           verrai contattato nel minor tempo possibile.
         </p>
   
-        <form className="w-full max-w-md">
+        <form className="w-full max-w-md mx-auto  m-4 md:m-60 mt-32 sm:mt-16 px-4">
           <div className="mb-4">
             <label
               htmlFor="nome"
@@ -23,7 +22,7 @@ function Contatti() {
               type="text"
               id="nome"
               name="nome"
-              className="mt-1 p-2 border rounded max-w-xs mx-auto"
+              className="mt-1 p-2 border rounded w-full sm:w-full md:w-3/4" 
               required
             />
           </div>
@@ -38,7 +37,7 @@ function Contatti() {
               type="text"
               id="cognome"
               name="cognome"
-              className="mt-1 p-2 border rounded max-w-xs mx-auto"
+              className="mt-1 p-2 border rounded w-full sm:w-full md:w-3/4" 
               required
             />
           </div>
@@ -53,7 +52,7 @@ function Contatti() {
               type="email"
               id="email"
               name="email"
-              className="mt-1 p-2 border rounded max-w-xs mx-auto"
+              className="mt-1 p-2 border rounded w-full sm:w-full md:w-3/4" 
               required
             />
           </div>
@@ -68,7 +67,7 @@ function Contatti() {
               id="messaggio"
               name="messaggio"
               rows="4"
-              className="mt-1 p-2 border rounded max-w-xs mx-auto"
+              className="mt-1 p-2 border rounded w-full sm:w-full md:w-3/4" 
               required
             ></textarea>
           </div>
@@ -83,7 +82,6 @@ function Contatti() {
         <p className="text-lg mb-8 mt-8">
           In alternativa puoi scrivere al seguente indirizzo email: <br /> <br />
           <span className="text-customGold font-semibold text-2xl">
-            {" "}
             info@VeggieBites.it
           </span>
         </p>
@@ -92,3 +90,4 @@ function Contatti() {
   }
   
   export default Contatti;
+  
