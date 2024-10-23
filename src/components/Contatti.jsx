@@ -6,8 +6,8 @@ function Contatti() {
         </h1>
   
         <p className="text-lg mb-1 mt-4">
-          Compila il form con la tua richiesta di informazioni,
-          verrai contattato nel minor tempo possibile.
+        Fill out the form with your information request,
+        you will be contacted as soon as possible.
         </p>
   
         <form className="w-full max-w-md mx-auto m-4 md:m-60 mt-8 sm:mt-16 px-4">
@@ -16,7 +16,7 @@ function Contatti() {
               htmlFor="nome"
               className="block text-lg font-medium text-custom font-nunito"
             >
-              Nome
+              Name
             </label>
             <input
               type="text"
@@ -31,7 +31,7 @@ function Contatti() {
               htmlFor="cognome"
               className="block text-lg font-medium text-custom font-nunito"
             >
-              Cognome
+              Surname
             </label>
             <input
               type="text"
@@ -61,7 +61,7 @@ function Contatti() {
               htmlFor="messaggio"
               className="block text-lg font-medium text-custom font-nunito"
             >
-              Messaggio
+              Messagge
             </label>
             <textarea
               id="messaggio"
@@ -75,12 +75,12 @@ function Contatti() {
             type="submit"
             className="bg-customGold text-custom font-semibold py-2 px-4 rounded hover:bg-yellow-600 font-nunito"
           >
-            Invia
+            Send
           </button>
         </form>
   
         <p className="text-lg mb-8 mt-8">
-          In alternativa puoi scrivere al seguente indirizzo email: <br /> <br />
+        Or, you can email us at: <br /> <br />
           <span className="text-customGold font-semibold text-2xl">
             info@VeggieBites.it
           </span>

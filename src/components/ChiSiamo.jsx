@@ -5,28 +5,26 @@ function ChiSiamo() {
     <div className="chi-siamo-container">
       <h1 className="chi-siamo-title">VeggieBites</h1>
       <p className="chi-siamo-text">
-        VeggieBites è un'app pensata per tutti gli amanti della cucina
-        vegetariana. <br />
-        Il nostro obiettivo è rendere facile e divertente trovare nuove ricette
-        vegetariane che siano sane, gustose e semplici da preparare.
+
+        VeggieBittes promotes a healthier and more sustainable lifestyle through the discovery of vegetarian recipes 
+        that everyone can enjoy, from beginners to expert cooks. <br />
+        Our aim is not to demonize meat, but to reduce its consumption by consolidating
+         a diet based on raw materials of plant origin.
       </p>
-      <h2 className="chi-siamo-subtitle">Missione</h2>
+      <h2 className="chi-siamo-subtitle">Mission</h2>
       <p className="chi-siamo-text">
-        La nostra missione è promuovere uno stile di vita più sano e sostenibile
-        attraverso la scoperta di ricette vegetariane che tutti possono
-        apprezzare, dai principianti ai cuochi più esperti. <br />
-        Il nostro intento non è quello di demonizzare la carne, ma quello di
-        ridurre il suo consumo e consolidare invece un regime alimentare basato
-        su alimenti di origine vegetale.
+      Our mission is to promote a healthier and more sustainable lifestyle
+      through the discovery of vegetarian recipes that everyone can
+      enjoy, from beginners to more experienced cooks. <br />
+      Our intent is not to demonize meat, but to
+      reduce its consumption and instead consolidate a diet based on
+      foods of plant origin.
       </p>
       <h2 className="chi-siamo-subtitle">Benefici della cucina vegetariana</h2>
       <p className="chi-siamo-text">
-        Crediamo nei benefici di una dieta prevalentemente vegetariana. Come
-        sostenuto da studi scientifici, una alimentazione vegetariana riduce le
-        probabilità di sviluppo di malattie cardiovascolari, diabete, obesità,
-        alcuni tipi di cancro e ipertensione. I vantaggi che ne conseguono sono
-        legati non solo alla salute personale ma anche a quella dell'ambiente e
-        degli animali.
+      We believe in the benefits of a mostly vegetarian diet. <br />Scientific studies have shown that a 
+      vegetarian diet reduces the risk of developing cardiovascular disease, diabetes, obesity, some cancers, and high blood pressure. 
+      The resulting benefits are not only related to personal health, but also to the health of the environment and animals.
       </p>
     </div>
   );

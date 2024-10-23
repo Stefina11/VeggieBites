@@ -20,10 +20,10 @@ function NavBar(){
                 <Link to = {'/'} className='text-lg font-nunito font-bold' onClick={resetData} >Home</Link>
             </li>
             <li>
-                <Link to = {'/chi-siamo'} className='text-lg font-nunito font-bold'>Chi siamo</Link>
+                <Link to = {'/chi-siamo'} className='text-lg font-nunito font-bold'>About</Link>
             </li>
             <li>
-                <Link to = {'/contatti'} className='text-lg font-nunito font-bold'>Contatti</Link>
+                <Link to = {'/contatti'} className='text-lg font-nunito font-bold'>Contacts</Link>
             </li>
 
         </ul>

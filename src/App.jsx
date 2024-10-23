@@ -22,7 +22,7 @@ function App() {
           <Route path="/" element={
             
             <div className=' relative flex flex-col items-center justify-center p-4 mt-16 flex-grow'>
-              <h1 className='font-bold text-3xl mb-4 mt-6 font-nunito text-custom'>Trova la perfetta ricetta vegetariana!</h1>
+              <h1 className='font-bold text-3xl mb-4 mt-6 font-nunito text-custom'>Find your perfect vegetarian recipe!</h1>
               <div className='inline-block relative mb-4 w-full md:w-1/2'>
                 <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4 md:w-1/2">
                   <SearchBar />

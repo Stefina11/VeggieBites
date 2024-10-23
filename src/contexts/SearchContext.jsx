@@ -20,7 +20,7 @@ export const SearchProvider = ({ children }) => {
       const response = await fetch(
         `https://api.spoonacular.com/recipes/complexSearch?apiKey=${apiKey}&query=${input}&number=50`,
       );
-      if (!response.ok) throw new Error("errore durante il fetch");
+      if (!response.ok) throw new Error("fetch error");
       const result = await response.json();
       setData(result);
     } catch (error) {
