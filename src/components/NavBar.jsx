@@ -1,9 +1,12 @@
-
-//import Link from './Link.jsx';
+import React from "react";
 import { Link } from 'react-router-dom';
 import logoVeggieBites from '../assets/img/logoVeggieBites.png';
+import { useSearchApi } from "../contexts/SearchContext";
+
 
 function NavBar(){
+    const { resetData } = useSearchApi();
+
     return(
         <nav className=' text fixed top-0 w-full z-50 p-4 flex items-center justify-between'>
 
@@ -14,7 +17,7 @@ function NavBar(){
         <div className='container mx-auto px-4 py-3'>    
         <ul className='flex space-x-4'>
             <li>
-                <Link to = {'/'} className='text-lg font-nunito font-bold' >Home</Link>
+                <Link to = {'/'} className='text-lg font-nunito font-bold' onClick={resetData} >Home</Link>
             </li>
             <li>
                 <Link to = {'/chi-siamo'} className='text-lg font-nunito font-bold'>Chi siamo</Link>

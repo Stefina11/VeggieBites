@@ -1,10 +1,9 @@
 function Footer() {
     return (
-        <footer className="bg-gray-800 text-white text-center py-4">
-            <p className="text-sm">
-            Copyright &#169 2024 by Stefania Maimone
+        <footer className="py-1 bg-custom text-white ">
+            <p className="text-xs"> 
+                Copyright &#169; 2024 by Stefania Maimone
             </p>
-           
         </footer>
     );
 }
