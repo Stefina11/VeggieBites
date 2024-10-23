@@ -23,7 +23,7 @@ function Contatti() {
               type="text"
               id="nome"
               name="nome"
-              className="mt-1 p-2 border rounded w-full"
+              className="mt-1 p-2 border rounded max-w-xs mx-auto"
               required
             />
           </div>
@@ -38,7 +38,7 @@ function Contatti() {
               type="text"
               id="cognome"
               name="cognome"
-              className="mt-1 p-2 border rounded w-full"
+              className="mt-1 p-2 border rounded max-w-xs mx-auto"
               required
             />
           </div>
@@ -53,7 +53,7 @@ function Contatti() {
               type="email"
               id="email"
               name="email"
-              className="mt-1 p-2 border rounded w-full"
+              className="mt-1 p-2 border rounded max-w-xs mx-auto"
               required
             />
           </div>
@@ -68,7 +68,7 @@ function Contatti() {
               id="messaggio"
               name="messaggio"
               rows="4"
-              className="mt-1 p-2 border rounded w-full"
+              className="mt-1 p-2 border rounded max-w-xs mx-auto"
               required
             ></textarea>
           </div>
