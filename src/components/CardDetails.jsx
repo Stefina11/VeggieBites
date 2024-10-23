@@ -54,7 +54,7 @@ function CardDetails() {
         className="text-indigo-950"
       >
         {" "}
-        Vai alla ricetta completa
+        Go to the complete recipe
       </a>
     </div>
   );

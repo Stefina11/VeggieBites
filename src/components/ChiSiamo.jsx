@@ -20,7 +20,7 @@ function ChiSiamo() {
       reduce its consumption and instead consolidate a diet based on
       foods of plant origin.
       </p>
-      <h2 className="chi-siamo-subtitle">Benefici della cucina vegetariana</h2>
+      <h2 className="chi-siamo-subtitle">Benefits of vegetarian cuisine</h2>
       <p className="chi-siamo-text">
       We believe in the benefits of a mostly vegetarian diet. <br />Scientific studies have shown that a 
       vegetarian diet reduces the risk of developing cardiovascular disease, diabetes, obesity, some cancers, and high blood pressure. 
